@@ -24,9 +24,6 @@ One needs a web browser that will accept the u.r.l to run the program online
 Explain how to run the automated tests for this system
 
 
-```
-Give an example
-```
 
 ## Deployment
 
