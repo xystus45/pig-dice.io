@@ -23,11 +23,6 @@ One needs a web browser that will accept the u.r.l to run the program online
 
 Explain how to run the automated tests for this system
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
 Give an example
 ```
 
