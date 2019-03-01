@@ -26,7 +26,8 @@ Explain how to run the automated tests for this system
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Have a internet connection and the link to the "test website" from the Uniform Resource Locator (URL)
+
 
 ## Built With
 
