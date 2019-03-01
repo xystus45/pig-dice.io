@@ -28,7 +28,6 @@ Explain how to run the automated tests for this system
 
 Have a internet connection and the link to the "pig-dice-game" from the Uniform Resource Locator (URL)
 
-
 ## Built With
 
 * Terminal:This where i placed my commands and placed my commitments;this is where my points come from.
