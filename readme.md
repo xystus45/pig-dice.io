@@ -59,7 +59,7 @@ Add additional notes about how to deploy this on a live system
 ## Built With
 
 * Terminal:This where i placed my commands and placed my commitments;this is where my points come from.
-* Git hub:This was used to track changes done on the computer and update on my github online work
+* Git hub:This was used to track changes done on the computer and update on my git hub online work
 * Atom:This was the text editor used to write the code used to create the project
 
 ## Contributing
