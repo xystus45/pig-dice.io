@@ -70,7 +70,6 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 * **XYSTUS NGIGI** - *Initial work* - [PurpleBooth](https://xystus45.github.io/pig-dice.io/. )
 
-
 ## License
 
 This project is licensed under the MIT License
