@@ -62,9 +62,6 @@ Add additional notes about how to deploy this on a live system
 * Git hub:This was used to track changes done on the computer and update on my git hub online work
 * Atom:This was the text editor used to write the code used to create the project
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Authors
 
