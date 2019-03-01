@@ -26,7 +26,7 @@ Explain how to run the automated tests for this system
 
 ## Deployment
 
-Have a internet connection and the link to the "test website" from the Uniform Resource Locator (URL)
+Have a internet connection and the link to the "pig-dice-game" from the Uniform Resource Locator (URL)
 
 
 ## Built With
