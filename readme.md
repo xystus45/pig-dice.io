@@ -1,6 +1,6 @@
 # Pig Dice
 
-This is a project on a game called pig-dice
+This is a project on a game called pig-dice 
 
 ## Getting Started
 
