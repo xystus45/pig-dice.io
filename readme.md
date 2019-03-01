@@ -7,25 +7,13 @@ This is a project on a game called pig-dice
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
+One needs a web browser that will accept the u.r.l to run the program online
+ examples:
+   +chrome
+   +Firefox Web Browser
+   +safari
 
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+ of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
