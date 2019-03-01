@@ -13,8 +13,7 @@ One needs a web browser that will accept the u.r.l to run the program online
    +Firefox Web Browser
    +safari
 
- of getting some data out of the system or using it for a little demo
-
+ 
 ## Running the tests
 
 Explain how to run the automated tests for this system
