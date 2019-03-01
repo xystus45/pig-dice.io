@@ -11,9 +11,13 @@ One needs a web browser that will accept the u.r.l to run the program online
  examples:
    +chrome
    +Firefox Web Browser
-   +safari
+    +safari
 
- 
+## Running the tests:
+   User starts the game
+   * User plays the game whereby their scores are recorded
+   * User is given a score at the end and can compare with the friend
+
 ## Running the tests
 
 Explain how to run the automated tests for this system
