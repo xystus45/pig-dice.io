@@ -1,59 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Pig-Dice</title>
-        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-        <link href="css/styles.css" rel="stylesheet" type="text/css">
-    </head>
-<body>
-<div class="start-menu container">
-    <div class="what">
-	  <h1>Pig-Dice</h1>
-      <h3>Let's play!</h3>
-<!---form for player1----->
-        <form id="player-1">
-          <div class="form-group">
-            <label for="player1Name">Player 1:</label><br>
-            <input required class="player1Name" type="text" placeholder="Enter your name">
-          </div>
-        </form>
-<!---form for player2----->
-        <form id="player-2">
-          <div class="form-group">
-            <label for="player2Name">Player 2:</label><br>
-            <input required class="player2Name" type="text" placeholder="Enter your name">
-          </div>
-        </form>
-<!---button to start your game-->
-        <button id="start" class="btn">Start</button>
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <title>PIG-DICE</title>
+</head>
+
+<body background="/home/xystus/Documents/pig-dice/images/dice_and_dragon.jpg">
+
+  <div class="container">
+    <h1 class="jumbotron"><strong>PIG-DICE TIME!!  </strong></h1>
+    <div class="form-group">
+      <br>
+      <h2><strong>Rules for the game</strong></h2>
+      <ul>
+        <li>Player one rolls the dice.</li>
+        <li>Player one can pass the dice to player two by clicking the hold button.</li>
+        <li>If player one rolls a "one" then he loses that round and player two takes over and vice versa.</li>
+        <li>The winner scores the highest addition when the dice is rolled.</li>
+      </ul>
+      <p><i>enjoy the game</i></p>
+      <form id="pig-dice">
+      <div class=" col-md-7">
+        <h2>Player 1</h2>
+        <h4>Current Score: <span class="current-score-1"></span></h4>
+        <h4>Total Score: <span class="total-score-1"></span></h4>
+        <button id="roll-btn-1" type="button" name="button"><strong>Roll</strong></button>
+        <button id="hold-btn-1" type="button" name="button"><strong>Hold</strong></button>
     </div>
+    <br>
+    <div class="col-md-7">
+      <h2>Player 2</h2>
+      <h4>Current Score: <span class="current-score-2"></span></h4>
+      <h4>Total Score: <span class="total-score-2"></span></h4>
+      <button id="roll-btn-2" type="button" name="button"><strong>Roll</strong></button>
+      <button id="hold-btn-2" type="button" name="button"><strong>Hold</strong></button>
+    </div>
+    <br>
+    <button id="restart">
+      <a class="button" href="index.html">Restart</a>
   </div>
-
-  <div class="player-console container">
-      <button id="new-game" class="btn">NEW GAME </button>
-      <div class = "row">
-        <div class="col-md-6">
-          <h2>Player 1: <span id = "player1Name"><span></h2>
-            <button id="player1-roll" class="btn">Roll</button>
-            <button id="player1-hold" class="btn">Hold</button>
-          <h2 id="die-roll-1">Dice Roll: </h2>
-          <p id="round-total-1">Round Total: </p>
-          <p id="total-score-1">Players Score: </p>
-        </div>
-
-      <div class="col-md-6">
-        <h2>Player 2: <span id = "player2Name"><span></h2>
-          <button id="player2-roll" class="btn">Roll</button>
-          <button id="player2-hold" class="btn">Hold</button>
-          <h2 id="die-roll-2">Dice Roll: </h2>
-          <p id="round-total-2">Round Total: </p>
-          <p id="total-score-2">Players Score: </p>
-      </div>
-      </div>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
-
+    </form>
+  </div>
+  </div>
 </body>
 </html>
